@@ -23,7 +23,7 @@ const Navbar = () => {
      </div>
      
 
-     <div className= ' bg-gray-100 '>
+     <div className= ' bg-gray-200 '>
       <OurService/>
      </div>
 
@@ -31,28 +31,11 @@ const Navbar = () => {
         <Appointment/>
       </div>
 
-      <div >
+      <div>
         <Gallery />
       </div>
      
 
-      {/* <div className="appointment">
-        <Appointment></Appointment>
-      </div>
-
-
-      
-      <div className="GALLERY">
-       <Gallery></Gallery>
-      </div>
-
-      <div className="GALLERY">
-      <Prodcuts></Prodcuts>
-      </div>
-
-      <div className="Blog">
-     <Blog></Blog>
-      </div> */}
 
     </div>
   );
