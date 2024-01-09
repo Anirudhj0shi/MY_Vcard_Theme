@@ -42,23 +42,7 @@ const OurService = () => {
         </div>
       </div>
 
-      {/* Website Icon */}
-      <div className='w-[200px] border rounded-xl m-3 p-1 shadow-2xl  '>
-          <div className="website-icon  h-[50px] m-auto text-4xl rounded-lg flex items-center justify-center">
-          <FontAwesomeIcon icon={faFaceSmile} />
-          </div>
-
-          {/* Web Development */}
-          
-          <div className="webdata  w-[89%]  text-center  ">
-            <h1 className='font-bold'>Web Development</h1>
-            <p>Lorem ipsum, dolor sit amecupiditate quidem at quis.
-            Lorem ipsum dolor sit amet.</p>
-          </div>
       </div>
-
-
-        </div>
 
       
     </>
