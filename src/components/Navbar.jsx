@@ -4,6 +4,7 @@ import Home from './home/Home';
 import Service from './Service';
 import OurService from './OurService';
 import Appointment from './Appointment';
+import Gallery from './gallery/Gallery';
 
 const Navbar = () => {
   return (
@@ -28,6 +29,10 @@ const Navbar = () => {
 
       <div className=''>
         <Appointment/>
+      </div>
+
+      <div >
+        <Gallery />
       </div>
      
 
