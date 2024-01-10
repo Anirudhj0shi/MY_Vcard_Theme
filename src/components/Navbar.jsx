@@ -7,6 +7,8 @@ import Appointment from './Appointment';
 import Gallery from './gallery/Gallery';
 import Products from './products/Products';
 import Testimonial from './testimonial/Testimonial';
+import Blog from './blog/Blog';
+import BusinessHours from './business hours/BusinessHours';
 
 const Navbar = () => {
   return (
@@ -43,6 +45,14 @@ const Navbar = () => {
 
       <div className=''>
         <Testimonial />
+      </div>
+
+      <div className='bg-white'>
+        <Blog />
+      </div>
+
+      <div className='bg-gray-200'>
+        <BusinessHours/>
       </div>
 
     </div>
