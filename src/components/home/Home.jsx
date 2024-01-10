@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import Contact_Icon from '../Contact-icon';
-import Contact from '../Contact';
+
 import Personal_information from '../personal_data/Personal_information';
 import Service from '../Service';
 
@@ -41,8 +41,8 @@ const Home = () => {
         <div className=' text-white p-2 shadow-lg hover:scale-105 transition duration-[0.3s] rounded-lg w-[90%]'>
         <p data-aos="fade-right" data-aos-duration="1500" className='text-xs mt-3 ml-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur animi numquam laudantium magnam rem aliquam ea corrupti nihil quidem modi, eligendi, voluptate, deleniti sit facere doloremque harum iure esse</p>
         </div>
-        <Contact_Icon /><br/><br/>
-        <Contact />
+        <Contact_Icon />
+        
         <Personal_information/>
         
 

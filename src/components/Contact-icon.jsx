@@ -36,7 +36,7 @@ const Contact_Icon = () => {
   };
 
   return (
-    <div  className="flex items-center overflow-hidden ml-0 mt-6 rounded-full space-x-4 sm:justify-start  m-auto">
+    <div  className="flex items-center overflow-hidden ml-0 mt-6 rounded-full space-x-4 sm:justify-start  m-auto pb-8">
       
       {/* WhatsApp icon */}
       <div data-aos="flip-left" data-aos-duration="1000" className="cursor-pointer text-white hover:scale-105 transition duration-[0.3s]  hover:text-green-700  text-center ml-3 border-none  bg-emerald-850 rounded-lg shadow-md  p-2" style={{boxShadow: '0 4px 5px 5px rgba(0, 0, 0, 0.4)'}}>

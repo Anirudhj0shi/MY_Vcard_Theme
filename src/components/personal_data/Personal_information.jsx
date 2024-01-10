@@ -8,6 +8,11 @@ import { faBirthdayCake, faEnvelope, faLocation, faPhone } from '@fortawesome/fr
 const PersonalInformation = () => {
   return (
     <>
+    <div className="flex items-center justify-center ">
+      <hr className="border-b-2 border-yellow-600 w-full mr-4" />
+      <h1 className="font-bold text-xl text-white">Contact</h1>
+      <hr className="border-b-2 border-yellow-600 w-full ml-4" />
+    </div>
       <div className="container w-full mt-5 ">
         <div className="row flex justify-evenly">
           <div data-aos="fade-right" data-aos-duration="1000" className="email flex text-white p-2 shadow-xl rounded-lg hover:bg-white hover:scale-105 transition duration-[0.3s] relative hover:cursor-pointer hover:text-black">
