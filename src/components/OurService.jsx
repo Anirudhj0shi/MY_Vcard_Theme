@@ -9,7 +9,7 @@ const OurService = () => {
 
      <>
     <h1 className='text-center font-bold p-4 text-xl  text-emerald-900'>Our Services</h1>
-    <div className="flex justify-center pb-4 m-2">
+    <div className="flex justify-center overflow-hidden pb-4 m-2">
    
 
         {/* Website Icon */}

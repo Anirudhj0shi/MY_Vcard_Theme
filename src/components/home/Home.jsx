@@ -25,7 +25,7 @@ const Home = () => {
           ></path>
         </svg>
       </div>
-      <div  className='absolute top-10 left-3 right-3 transform'>
+      <div  className='absolute overflow-hidden top-10 left-3 right-3 transform'>
         {/* Circle */}
         <div data-aos="fade-up" data-aos-duration="1000" className='relative h-40 w-40'>
           <div  className='h-28 w-28 rounded-full bg-transparent border-4 border-yellow-500 absolute top-28 left-14 transform -translate-x-1/2 -translate-y-1/2'>
