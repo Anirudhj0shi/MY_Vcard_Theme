@@ -9,6 +9,7 @@ import Products from './products/Products';
 import Testimonial from './testimonial/Testimonial';
 import Blog from './blog/Blog';
 import BusinessHours from './business hours/BusinessHours';
+import QRCode from './qr-code/QRCode';
 
 const Navbar = () => {
   return (
@@ -51,8 +52,12 @@ const Navbar = () => {
         <Blog />
       </div>
 
-      <div className='bg-gray-200'>
+      <div className='bg-gray-200 pb-10'>
         <BusinessHours/>
+      </div>
+
+      <div>
+        <QRCode />
       </div>
 
     </div>

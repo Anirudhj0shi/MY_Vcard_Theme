@@ -1,16 +1,17 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 
 const BusinessHours = () => {
   return (
     <>
      <h1 className='font-bold text-xl text-center p-4'>Business Hours</h1>
-     <div className='text-center p-4'>
-       <p>Monday: 9:00 AM - 5:00 PM</p>
-       <p>Tuesday: 9:00 AM - 5:00 PM</p>
-       <p>Wednesday: 9:00 AM - 5:00 PM</p>
-       <p>Thursday: 9:00 AM - 5:00 PM</p>
-       <p>Friday: 9:00 AM - 5:00 PM</p>
-       <p>Saturday: 9:00 AM - 5:00 PM</p>
+     <div className=' ml-auto mr-auto bg-white shadow-black shadow-xl rounded-3xl text-center p-4 border border-gray-500 w-3/4'>
+       <p className='m-2'>Monday: 9:00 AM - 5:00 PM</p>
+       <p className='m-2'>Tuesday: 9:00 AM - 5:00 PM</p>
+       <p className='m-2'>Wednesday: 9:00 AM - 5:00 PM</p>
+       <p className='m-2'>Thursday: 9:00 AM - 5:00 PM</p>
+       <p className='m-2'>Friday: 9:00 AM - 5:00 PM</p>
+       <p className='m-2'>Saturday: 9:00 AM - 5:00 PM</p>
       </div>
     
     </>
