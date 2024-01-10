@@ -7,7 +7,7 @@ import Service from '../Service';
 
 const Home = () => {
   return (
-    <div className='relative bg-emerald-900'>
+    <div className='relative  bg-emerald-900'>
       <img
         src='https://cdn.pixabay.com/photo/2016/11/22/21/57/apparel-1850804_640.jpg'
         alt='COVER-PAGE'
@@ -25,10 +25,10 @@ const Home = () => {
           ></path>
         </svg>
       </div>
-      <div className='absolute top-10 left-3 right-3 transform'>
+      <div  className='absolute top-10 left-3 right-3 transform'>
         {/* Circle */}
-        <div className='relative h-40 w-40'>
-          <div className='h-28 w-28 rounded-full bg-transparent border-4 border-yellow-500 absolute top-28 left-14 transform -translate-x-1/2 -translate-y-1/2'>
+        <div data-aos="fade-up" data-aos-duration="1000" className='relative h-40 w-40'>
+          <div  className='h-28 w-28 rounded-full bg-transparent border-4 border-yellow-500 absolute top-28 left-14 transform -translate-x-1/2 -translate-y-1/2'>
             <img
               src='https://cdn.pixabay.com/photo/2023/06/16/15/10/man-ai-8068201_640.jpg'
               alt='Profile'
@@ -36,10 +36,10 @@ const Home = () => {
             />
           </div>
         </div>
-        <h1 className='text-yellow-500 font-bold text-xl mt-4 ml-3'>joe doe</h1>
-        <h1 className='text-white  text-lg mt-1 ml-3'>Designation</h1>
+        <h1 data-aos="fade-right" data-aos-duration="1500" className='text-yellow-500 font-bold text-xl mt-4 ml-3'>joe doe</h1>
+        <h1 data-aos="fade-right" data-aos-duration="1500" className='text-white  text-lg mt-1 ml-3'>Designation</h1>
         <div className=' text-white p-2 shadow-lg hover:scale-105 transition duration-[0.3s] rounded-lg w-[90%]'>
-        <p className='text-xs mt-3 ml-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur animi numquam laudantium magnam rem aliquam ea corrupti nihil quidem modi, eligendi, voluptate, deleniti sit facere doloremque harum iure esse</p>
+        <p data-aos="fade-right" data-aos-duration="1500" className='text-xs mt-3 ml-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur animi numquam laudantium magnam rem aliquam ea corrupti nihil quidem modi, eligendi, voluptate, deleniti sit facere doloremque harum iure esse</p>
         </div>
         <Contact_Icon /><br/><br/>
         <Contact />

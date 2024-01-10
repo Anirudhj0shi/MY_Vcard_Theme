@@ -7,7 +7,7 @@ const Gallery = () => {
 <div className="flex flex-col bg-white m-auto p-auto">
 <h1 className="flex justify-center p-3 m-3  font-bold text-2xl text-emerald-900">Gallery</h1>
       <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
-        <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 " >
+        <div className="flex flex-nowrap " >
           <div className="inline-block px-3">
             <img className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out" src='https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_640.jpg'/>
           </div>
